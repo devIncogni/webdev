@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--"DOCTYPE html" Tells the browser to parse according to industry standars
+OR Tells the version of HTML OR Ensures that the web page is
+parsed the same way by different web browsers.-->
+
+<html lang="en">
+<!--lang attribute specifies the language of the web page-->
+
+    <head>
+    <!--The <head> element is a container for metadata (data about data) and is placed between
+    the <html> tag and the <body> tag. Metadata is data about the HTML document. Metadata is not displayed.
+    Metadata typically define the document title, character set, styles, scripts and other meta information.-->
+
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <!--Instruction about the Character set. -->
+
+        <title>Cat Photo App</title><!--Determines the text in TITLE BAR-->
+
+    </head>
+
+    <body>
+        
+        <main>
+        <!--Main tag used to tell about the main content of page. Useful for SEO-->
+
+            <h1>CatPhotoApp</h1>
+
+            <section>
+            <!--Defines a section of the page. Improves readability and useful for SEO.
+            It means that the content inside is grouped (i.e. relates to a single theme)
+            and should appear as an entry in an outline of the page.-->
+
+                <h2>Cat Photos</h2>
+                <p>See more <a target="_blank" href="https://freecatphotoapp.com/">Cat Photos</a> in our gallery.</p>
+
+                <a target="_blank" href="https://freecatphotoapp.com/">
+                <!--Target is used to tell where to open the link. _blank means new tab.-->
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="An Orange Cat">
+                </a>                    
+            
+            </section>
+
+            <section>
+
+                <h2>Cat Lists</h2>
+
+                <h3>Things Cats Love:</h3>
+
+                <ul><!--Unordered List (Bullets)-->
+                    <li>Cat Nip</li>
+                    <li>Laser Pointers</li>
+                    <li>Lasagna</li>
+                </ul>
+
+                <figure><!--Represents self-contained content. The content will make sense independently-->
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Lasagna">
+                    <figcaption>Cats <em>Love</em> Lasagna.</figcaption><!--Defines a caption for the figure-->
+                </figure>
+                
+                <h3>Top 3 Things Cats Hate:</h3>
+
+                <ol><!--Ordered Lists (Numbering)-->
+                    <li>Flea Treatement</li>
+                    <li>Thunder</li>
+                    <li>Other Cats</li>
+                </ol>
+
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Kittens">
+                    <figcaption>Cats <strong>Hate</strong> Other Cats.</figcaption>
+                </figure>
+
+            </section>
+
+            <section>
+            
+                <h2>Cat Form</h2>
+            
+                <form action="">
+                <!--Form defines a section of form. The "action" attribute tells where the data should go on clicking submit-->
+
+                    <fieldset>
+                    <!--Used to group related elements in a form. Visually seen by a box drawn around the grouped items-->
+
+                        <legend>Is Your Cat An <strong>INDOOR</strong> or <strong>OUTDOOR</strong> Cat?</legend>
+                        <!--A legend tag defines the caption or title for the <fieldset> tag-->
+            
+                        <label for="indoor">
+                        <!--Label tag used to define labels for elements and also connect them.
+                        If you click on text, the radio/checkbox will be marked-->
+
+                            <input type="radio" name="indoor-outdoor" id="indoor" value="indoor" checked>Indoor
+                            <!--Name-Value pairs will be submitted as http request on clicking submit in form.
+                            If value is not provided, boolean value will be submitted by default-->
+
+                        </label>
+            
+                        <label for="outdoor">
+                            <input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor">Outdoor <!--Name-Value Pair-->
+                        </label>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>What's Your Cat's Personality</legend>
+            
+                        <label for="loving">
+                            <input type="checkbox" name="personality" id="loving" value="loving" checked>Loving <!--Name-Value Pair-->
+                        </label>
+                        <label for="lazy">
+                            <input type="checkbox" name="personality" id="lazy" value="lazy">Lazy <!--Name-Value Pair-->
+                        </label>
+                        <label for="energetic">
+                            <input type="checkbox" name="personality" id="energetic" value="energetic">Energetic <!--Name-Value Pair-->
+                        </label>
+                    </fieldset>
+            
+                    <input type="text" name="catphotourl" id="catphotourl" placeholder="Cat Photo URL" required> <!--Name-TextInput Pair-->
+            
+                    <button type="submit">Submit</button><!--Data in form of HTTP request sent to location specified in action attribute-->
+            
+                </form>
+            
+            </section>
+
+        </main>
+
+    </body>
+
+    <footer>
+
+        <p>No Copyright</p>
+        <p>Created by devIncogni</p>
+        <p><a href="/HTML/Home_nav.htm">Navigator</a></p>
+
+    </footer>
+
+</html>
