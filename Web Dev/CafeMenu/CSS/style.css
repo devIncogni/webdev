@@ -1,0 +1,94 @@
+/* Styling for Camper Cafe Menu*/
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    margin: 8px;
+    padding: 20px;
+}
+
+/*Margin is the space outside border and Padding is the spaace between border and content*/
+
+.menu {
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact, serif;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.established {
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+
+}
+
+h2 {
+    font-family: Impact, serif;
+    font-size: 30px;
+}
+
+img {
+    margin-top: -25px;
+}
+
+.flavour,
+.dessert {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 75%;
+    text-align: left;
+}
+
+.price {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    text-align: right;
+}
+
+.bottom {
+    margin: 25px, 0, 8px, 0;
+}
+
+footer {
+    font-size: 14px;
+}
+
+footer p {
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
