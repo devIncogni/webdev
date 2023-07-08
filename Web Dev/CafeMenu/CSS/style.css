@@ -7,7 +7,11 @@ body {
     padding: 20px;
 }
 
-/*Margin is the space outside border and Padding is the spaace between border and content*/
+/*Margin is the space outside Border and Padding is the spaace between border and content*/
+
+/*display: inline-block wraps the borders of an element uptu where the element actuall exists instead of 
+  taking the whole line for it. E.g. a paragraph text (<p>) will be wraped upto where it's text exists and
+  the next elemnt will start right after it.*/
 
 .menu {
     padding: 20px;
