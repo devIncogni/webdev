@@ -1,0 +1,79 @@
+/* Marker Styling start */
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Heebo&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+    margin: 100px auto 0 auto;
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.marker {
+    margin: 10px 0;
+    width: 300px;
+    height: 30px;
+    background: white;
+}
+
+.red {
+    background: linear-gradient(rgb(116, 21, 21), rgb(255, 39, 75), rgb(145, 26, 26));
+    box-shadow: 0 0 20px 0 rgba(117, 23, 23, 0.822);
+}
+
+.green {
+    background: linear-gradient(rgb(0, 112, 24), rgb(0, 255, 98), rgb(0, 112, 19));
+    box-shadow: 0 0 20px 0 rgba(37, 163, 37, 0.753);
+}
+
+.blue {
+    background: linear-gradient(rgb(13, 16, 158), rgb(71, 51, 255), rgb(18, 21, 155));
+    box-shadow: 0 0 20px 0 blue;
+}
+
+.cap {
+    width: 32%;
+    height: inherit;
+    display: inline-block;
+}
+
+.label {
+    display: inline-block;
+    width: 59%;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.5);
+    border-left: 10px double black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0;
+    background-color: rgb(44, 40, 40);
+}
+
+
+
+p,
+a {
+    color: #e6e6e6;
+    margin: 5px;
+    padding: 0;
+    font-family: 'Belanosima', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
