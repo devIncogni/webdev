@@ -1,66 +1,124 @@
 /*Styling for index page*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 
-body {
-    margin: 0px;
-    padding-bottom: 100px;
-    border: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@400;600&family=M+PLUS+Rounded+1c&family=Rajdhani:wght@400;500&display=swap');
 
+/*Margin Padding Border to 0 seting*/
+
+html,
+body,
+section,
+main,
+footer,
+h1,
+h2,
+h3,
+p,
+div,
 a {
-    color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-a:visited {
-    color: black;
+html,
+body {
+    height: 100%;
 }
 
-a:hover {
-    color: rgb(51, 51, 51);
+/*Font selection*/
+
+.navbar-heading {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    cursor: default;
+    margin-left: 10px;
 }
 
-.header-p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-#p2 {
-    margin-bottom: 20px;
-    margin-top: -5px;
-}
-
-#header {
-    font-family: 'Oswald', sans-serif;
+h1 {
+    /*font-family: 'Bebas Neue', sans-serif;*/
+    /*font-family: 'Heebo', sans-serif;*/
+    font-family: 'Rajdhani', sans-serif;
     font-size: 50px;
-    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 p,
+a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/*Font selection done*/
+
+/* coloring */
+body {
+    background: #050609;
+}
+
+.header-menu {
+    background: #050609;
+    box-shadow: 0 0 20px 0 black;
+}
+
+h1,
 h2,
-h1 {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+p {
+    color: #E3DFFF;
 }
 
-#hdrsct {
+a {
+    color: #555555;
+    transition: color ease-in 0.2s;
+}
+
+a:hover {
+    transition: color ease-in 0.2s;
+    color: #E3DFFF;
+}
+
+/*Coloring over*/
+
+/*Designing*/
+
+#container {
+    min-height: 90%;
+}
+
+.intro {
     text-align: center;
-
+    margin: 20px 0;
 }
 
-footer {
-    background-color: rgb(51, 51, 51);
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    height: 100px;
-    overflow: hidden;
-}
-
-#ftr-p-1 {
-    margin: 20px;
-    color: rgb(197, 197, 197);
+main {
+    margin: 50px 0;
+    text-align: center;
 }
 
 .sect {
-    margin: 25px 10px;
+    display: inline-block;
+    margin: 1% 0;
+    width: 30%;
+}
+
+.sect-p {
+    margin-bottom: 30px;
+}
+
+.sect-a {
+    padding: 15px;
+    margin: -15px;
+}
+
+footer {
+    padding: 0 10px;
+    position: relative;
+    bottom: 0;
 }
