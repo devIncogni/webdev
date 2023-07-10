@@ -71,7 +71,7 @@ body {
 h1,
 h2,
 p {
-    color: #E3DFFF;
+    color: #dadada;
 }
 
 a {
@@ -81,7 +81,7 @@ a {
 
 a:hover {
     transition: color ease-in 0.2s;
-    color: #E3DFFF;
+    color: #dadada;
 }
 
 /*Coloring over*/
