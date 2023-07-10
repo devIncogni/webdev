@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/webdev/Web Dev/Form/CSS/form-style.css">
+    <title>Reach Out to devIncogni</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="title">Reach Out to devIncogni</h1>
+        <p id="description">Hey There! devIncogni would be elated to see you connect with him!</p>
+
+        <form id="survey-form" method="post" action="#">
+
+            <fieldset>
+
+                <label id="name-label" for="name">
+                    What's your name? <input type="text" name="name" id="name" required placeholder="John Doe">
+                </label>
+                <label id="email-label" for="email">
+                    Where do we mail you? <input type="email" name="email" id="email" required
+                        placeholder="johndoe@email.com">
+                </label>
+                <label id="number-label" for="number">
+                    Phone Number? (Optional) <input type="number" name="phone" id="number" min="1000000000"
+                        max="9999999999" placeholder="1234567890">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <label for="dropdown">What do you do?
+                    <select name="dropdown" id="dropdown">
+                        <option value="">Choose one</option>
+                        <option value="1">Student</option>
+                        <option value="2">Working/Non-Student</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <p class="formp">Did you like devincogni's work?</p>
+                <label class="no-space" for="very-much">
+                    <input type="radio" name="like-my-work" id="very-much" value="very-much" checked> Very Much
+                </label>
+                <label class="no-space" for="not-really">
+                    <input type="radio" name="like-my-work" id="not-really" value="not-really"> Not Really
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <p class="formp">Which Projects did you like the most? (Leave unchecked if didn't like any)</p>
+
+                <label class="no-space" for="cat-photo-app">
+                    <input type="checkbox" name="like" id="cat-photo-app" value="cat-photo-app"> Cat Photo App
+                </label>
+                <label class="no-space" for="camper-cafe">
+                    <input type="checkbox" name="like" id="camper-cafe" value="camper-cafe"> Camper Cafe
+                </label>
+                <label class="no-space" for="css-marker">
+                    <input type="checkbox" name="like" id="css-marker" value="css-marker"> CSS Marker
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="comments"> Any Comments/Suggestions/Messages?
+                    <textarea name="comments" id="comments" cols="30" rows="3"
+                        placeholder="I would like to tell you..."></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <footer>
+        <p>Made by devIncogni</p>
+        <p><a href="/webdev/index.htm">Navigator</a></p>
+    </footer>
+</body>
+
+</html>

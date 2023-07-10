@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@400;600&family=M+PLUS+Rounded+1c&family=Rajdhani:wght@400;500&display=swap');
+
+html,
+body,
+h1,
+p,
+form,
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    background-image: url('/Web Dev/Form/Files/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Rajdhani';
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#name-label {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+#description {
+    font-size: 2rem;
+}
+
+#title,
+#description {
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+}
+
+form {
+    max-width: 600px;
+    min-width: 300px;
+    width: 60vw;
+    margin: 20px auto 0 auto;
+    background-color: rgba(4, 2, 117, 0.25);
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    color: white;
+}
+
+
+input,
+select,
+textarea {
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: 0.35rem;
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    transition: all ease-in 0.2s;
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: 0 0 20px 0 rgb(194, 194, 194);
+    transition: all ease 0.2s;
+}
+
+textarea {
+    height: 10rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: unset;
+    height: unset;
+    margin: 0 0.5em 0 0;
+    padding: 0;
+    vertical-align: middle;
+    display: unset;
+    font-size: 0;
+    transition: all ease 0.2s;
+    border: 2px solid rgb(231, 231, 231);
+}
+
+/*fieldset{
+    margin: 1rem;
+    padding: 1rem;
+}*/
+
+label,
+.formp {
+    display: block;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+.formp {
+    margin-bottom: 0;
+}
+
+.no-space {
+    margin: 0;
+    padding: 0;
+    height: 2.25rem;
+    font-size: 1.25rem;
+}
+
+#submit {
+    background-color: rgb(59, 134, 59);
+    transition: all ease-in 0.2s;
+
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(233, 233, 233);
+}
+
+#submit:hover {
+    background-color: rgb(97, 190, 97);
+    transition: all ease-in 0.2s;
+    color: rgb(24, 24, 24);
+}
+
+footer {
+    background: #00000091;
+    margin-top: 20px;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 1.5rem;
+    bottom: 0;
+    position: relative;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all ease-in 0.2s;
+}
+
+a:hover {
+    color: rgb(158, 158, 158);
+    transition: all ease-in 0.2s;
+}
