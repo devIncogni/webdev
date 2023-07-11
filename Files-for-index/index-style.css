@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@400;600&family=M+PLUS+Rounded+1c&family=Rajdhani:wght@400;500&display=swap');
 
 /*Margin Padding Border to 0 seting*/
+* {
+    box-sizing: border-box;
+}
 
 html,
 body,
@@ -22,14 +25,14 @@ a {
 
 html,
 body {
-    height: 100%;
+    min-height: 100%;
 }
 
 /*Font selection*/
 
 .navbar-heading {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 45px;
+    font-size: 4rem;
     font-weight: 500;
     cursor: default;
     margin-left: 10px;
@@ -39,14 +42,12 @@ h1 {
     /*font-family: 'Bebas Neue', sans-serif;*/
     /*font-family: 'Heebo', sans-serif;*/
     font-family: 'Rajdhani', sans-serif;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 5rem;
 }
 
 h2 {
     font-family: 'Heebo', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 3rem;
 }
 
 p,
@@ -54,6 +55,12 @@ a {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 17px;
     text-decoration: none;
+}
+
+.header-p{
+    font-size: 1rem;
+    width: 700px;
+    margin: auto;
 }
 
 /*Font selection done*/
@@ -88,9 +95,9 @@ a:hover {
 
 /*Designing*/
 
-#container {
+/*#container {
     min-height: 100%;
-}
+}*/
 
 .intro {
     text-align: center;
@@ -99,13 +106,18 @@ a:hover {
 
 main {
     margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    gap: 5%;
+    min-height: 70vh;
 }
 
 .sect {
-    display: inline-block;
-    margin: 2% 0;
-    width: 30%;
+    width: fit-content;
+    height: fit-content;
 }
 
 .sect-p {
