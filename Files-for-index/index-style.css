@@ -111,13 +111,16 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 5%;
+    gap: 2vw;
     min-height: 70vh;
 }
 
 .sect {
-    width: fit-content;
+    max-width: 510px;
+    width: 100%;
     height: fit-content;
+    text-align: center;
+
 }
 
 .sect-p {
