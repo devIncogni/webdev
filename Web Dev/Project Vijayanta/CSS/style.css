@@ -1,0 +1,51 @@
+/*Project Vijayanta Styling*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@400;600&family=M+PLUS+Rounded+1c&family=Rajdhani:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: #050609;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    font-family: 'Exo', sans-serif;
+    /*box-shadow: 0 0 20px 0 black;*/
+}
+
+body {
+    background: #050609;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    cursor: default;
+    margin-left: 10px;
+    color: #dadada;
+
+}
+
+h2 {
+    /*font-family: 'Bebas Neue', sans-serif;*/
+    /*font-family: 'Heebo', sans-serif;*/
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3rem;
+    padding: 100px;
+    text-align: center;
+    color: #dadada;
+
+}
