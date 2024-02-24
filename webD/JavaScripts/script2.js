@@ -1,14 +1,14 @@
-const ul = document.querySelector("ul")
-const input = document.querySelector("input")
-const btn = document.querySelector(".btn")
+const ul = document.querySelector("ul");
+const input = document.querySelector("input");
+const btn = document.querySelector(".btn");
 
 function textFromInput() {
     const userText = input.value;
     input.value = "";
     // alert(userText);
-    const newLi = document.createElement("li")
-    const newSpn = document.createElement("span")
-    const newBtn = document.createElement("button")
+    const newLi = document.createElement("li");
+    const newSpn = document.createElement("span");
+    const newBtn = document.createElement("button");
 
     newSpn.textContent = userText;
     newBtn.textContent = "Delete";
