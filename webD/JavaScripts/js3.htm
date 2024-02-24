@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="height: 100vh; width: 100vw;">
+    <div class="container">
+      <!-- <button id="btn">Click Me Too</button> -->
+
+      <a class="link" href="www.google.com" target="_blank">Click Me</a>
+    </div>
+
+
+    <script>
+      const btn = document.querySelector(".container > .link");
+      const bod = document.querySelector("body");
+
+      /**
+       * @param event {Event}
+       */
+      function btnClick(event) {
+        alert("Button Clicked");
+        console.log(event.type);
+        event.stopPropagation();
+        event.preventDefault();
+      }
+
+      function bodClick(event) {
+        alert("Body Clicked");
+        console.log(event.type);
+      }
+
+      btn.addEventListener("click", btnClick);
+      bod.addEventListener("click", bodClick);
+    </script>
+  </body>
+</html>
